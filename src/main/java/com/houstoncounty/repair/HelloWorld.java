@@ -13,7 +13,7 @@ public class HelloWorld {
     private WeatherRepo weatherRepo;
 
     @GetMapping("/weather")
-    public List<Weather> getHelloWorld() {
+    public List<Weather> getWeather() {
         return weatherRepo.getWeather();
     }
 }
